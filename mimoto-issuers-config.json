@@ -27,6 +27,168 @@
       "proxy_token_endpoint": "https://${mosip.esignet.host}/v1/esignet/oauth/v2/token",
       "qr_code_type": "OnlineSharing",
       "enabled": "true"
+    },
+    {
+      "issuer_id": "Mosip",
+      "credential_issuer": "Mosip",
+      "credential_issuer_host": "https://${mosip.injicertify.mosipid.host}",
+      "display": [
+        {
+          "name": "Mosiland National Identity Department",
+          "logo": {
+            "url": "https://mosip.github.io/inji-config/logos/mosipid-logo.png",
+            "alt_text": "mosip-logo"
+          },
+          "title": "Mosiland National Identity Department",
+          "description": "Download MOSIP National / Foundational Identity Credential",
+          "language": "en"
+        }
+      ],
+      "protocol": "OpenId4VCI",
+      "client_id": "${mimoto.oidc.mosipid.partner.clientid}",
+      "client_alias": "mpartner-mosip-certify-oidc",
+      "wellknown_endpoint": "https://injicertify.southafrica.mosip.net/v1/certify/issuance/.well-known/openid-credential-issuer",
+      "redirect_uri": "io.mosip.residentapp.inji://oauthredirect",
+      "token_endpoint": "https://api.southafrica.mosip.net/v1/mimoto/get-token/Mosip",
+      "authorization_audience": "https://${mosip.esignet.host}/v1/esignet/oauth/v2/token",
+      "proxy_token_endpoint": "https://${mosip.esignet.host}/v1/esignet/oauth/v2/token",
+      "qr_code_type": "OnlineSharing",
+      "enabled": "true"
+    },
+    {
+      "issuer_id": "Farmer",
+      "credential_issuer": "Farmer",
+      "credential_issuer_host": "https://${mosip.injicertify.farmer.host}",
+      "display": [
+        {
+          "name": "Mosiland Agriculture Department",
+          "logo": {
+            "url": "https://mosip.github.io/inji-config/logos/agro-vertias-logo.png",
+            "alt_text": "mosip-logo"
+          },
+          "title": "Mosiland Agriculture Department",
+          "description": "Download Farmer VC",
+          "language": "en"
+        }
+      ],
+      "protocol": "OpenId4VCI",
+      "client_id": "${mimoto.oidc.mosipid.partner.clientid}",
+      "client_alias": "mpartner-mosip-certify-oidc",
+      "wellknown_endpoint": "https://injicertify.southafrica.mosip.net/v1/certify/issuance/.well-known/openid-credential-issuer",
+      "redirect_uri": "io.mosip.residentapp.inji://oauthredirect",
+      "token_endpoint": "https://api.southafrica.mosip.net/v1/mimoto/get-token/Mosip",
+      "authorization_audience": "https://${mosip.esignet.host}/v1/esignet/oauth/v2/token",
+      "proxy_token_endpoint": "https://${mosip.esignet.host}/v1/esignet/oauth/v2/token",
+      "qr_code_type": "OnlineSharing",
+      "enabled": "true"
+    },
+    {
+      "issuer_id": "MosipTax",
+      "credential_issuer": "MosipTax",
+      "credential_issuer_host": "https://${mosip.injicertify.tax.host}",
+      "display": [
+        {
+          "name": "Mosiland Tax Department",
+          "logo": {
+            "url": "https://durga0417.github.io/logo/TaxLogo.png",
+            "alt_text": "mosip-logo"
+          },
+          "title": "Mosiland Tax Department",
+          "description": "Download Mosiland Tax Credential",
+          "language": "en"
+        }
+      ],
+      "protocol": "OpenId4VCI",
+      "client_id": "${mimoto.oidc.mosipid.partner.clientid}",
+      "client_alias": "mpartner-mosip-certify-oidc",
+      "wellknown_endpoint": "https://injicertify.southafrica.mosip.net/v1/certify/issuance/.well-known/openid-credential-issuer",
+      "redirect_uri": "io.mosip.residentapp.inji://oauthredirect",
+      "token_endpoint": "https://api.southafrica.mosip.net/v1/mimoto/get-token/Mosip",
+      "authorization_audience": "https://${mosip.esignet.host}/v1/esignet/oauth/v2/token",
+      "proxy_token_endpoint": "https://${mosip.esignet.host}/v1/esignet/oauth/v2/token",
+      "qr_code_type": "OnlineSharing",
+      "enabled": "true"
+    },
+    {
+      "issuer_id": "mock",
+      "credential_issuer": "mock",
+      "credential_issuer_host": "https://injicertify.mock.mosip.net",
+      "display": [
+        {
+          "name": "Mosiland Bank",
+          "logo": {
+            "url": "https://raw.githubusercontent.com/mijan32/assets/main/log/MosilandBankLogo.png",
+            "alt_text": "Mosiland-bank-logo"
+          },
+          "title": "Mosiland Bank",
+          "description": "Download Mosiland Bank Credential",
+          "language": "en"
+        }
+      ],
+      "protocol": "OpenId4VCI",
+      "client_id": "${mimoto.oidc.mosipid.partner.clientid}",
+      "client_alias": "mpartner-mosip-certify-oidc",
+      "wellknown_endpoint": "https://injicertify.southafrica.mosip.net/v1/certify/issuance/.well-known/openid-credential-issuer",
+      "redirect_uri": "io.mosip.residentapp.inji://oauthredirect",
+      "token_endpoint": "https://api.southafrica.mosip.net/v1/mimoto/get-token/Mosip",
+      "authorization_audience": "https://${mosip.esignet.host}/v1/esignet/oauth/v2/token",
+      "proxy_token_endpoint": "https://${mosip.esignet.host}/v1/esignet/oauth/v2/token",
+      "qr_code_type": "OnlineSharing",
+      "enabled": "true"
+    },
+    {
+      "issuer_id": "mosilandUniversity",
+      "credential_issuer": "mosilandUniversity",
+      "credential_issuer_host": "https://injicertify.university.mosip.net",
+      "display": [
+        {
+          "name": "Mosiland University",
+          "logo": {
+            "url": "https://raw.githubusercontent.com/mijan32/assets/main/log/MosiLandUniversity.png",
+            "alt_text": "mosiland-university-logo"
+          },
+          "title": "Mosiland University",
+          "description": "Download Mosiland University Credential",
+          "language": "en"
+        }
+      ],
+      "protocol": "OpenId4VCI",
+      "client_id": "${mimoto.oidc.mosipid.partner.clientid}",
+      "client_alias": "mpartner-mosip-certify-oidc",
+      "wellknown_endpoint": "https://injicertify.southafrica.mosip.net/v1/certify/issuance/.well-known/openid-credential-issuer",
+      "redirect_uri": "io.mosip.residentapp.inji://oauthredirect",
+      "token_endpoint": "https://api.southafrica.mosip.net/v1/mimoto/get-token/Mosip",
+      "authorization_audience": "https://${mosip.esignet.host}/v1/esignet/oauth/v2/token",
+      "proxy_token_endpoint": "https://${mosip.esignet.host}/v1/esignet/oauth/v2/token",
+      "qr_code_type": "OnlineSharing",
+      "enabled": "true"
+    },
+    {
+      "issuer_id": "mosilandHealthInsurance",
+      "credential_issuer": "mosilandHealthInsurance",
+      "credential_issuer_host": "https://injicertify.health.mosip.net",
+      "display": [
+        {
+          "name": "Mosiland Health Insurance",
+          "logo": {
+            "url": "https://raw.githubusercontent.com/mijan32/assets/main/log/MosilanHealthInsurance.png",
+            "alt_text": "mosiland-health-logo"
+          },
+          "title": "Mosiland Health Insurance",
+          "description": "Download Mosiland Health Insurance Credential",
+          "language": "en"
+        }
+      ],
+      "protocol": "OpenId4VCI",
+      "client_id": "${mimoto.oidc.mosipid.partner.clientid}",
+      "client_alias": "mpartner-mosip-certify-oidc",
+      "wellknown_endpoint": "https://injicertify.southafrica.mosip.net/v1/certify/issuance/.well-known/openid-credential-issuer",
+      "redirect_uri": "io.mosip.residentapp.inji://oauthredirect",
+      "token_endpoint": "https://api.southafrica.mosip.net/v1/mimoto/get-token/Mosip",
+      "authorization_audience": "https://${mosip.esignet.host}/v1/esignet/oauth/v2/token",
+      "proxy_token_endpoint": "https://${mosip.esignet.host}/v1/esignet/oauth/v2/token",
+      "qr_code_type": "OnlineSharing",
+      "enabled": "true"
     }
   ]
 }
